@@ -1,5 +1,5 @@
-import { Streamable } from "./streamable";
-import { Searchable } from "./searcheable";
+import { Streamable } from "./streamable.js";
+import { Searchable } from "./searcheable.js";
 
 /**
  * Abstract class representing a basic streamable collection.

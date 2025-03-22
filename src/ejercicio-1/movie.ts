@@ -1,5 +1,5 @@
-import { BasicStreamableCollection } from "./basicstreamablecollection";
-import { MediaItem } from "./mediaitem";
+import { BasicStreamableCollection } from "./basicstreamablecollection.js";
+import { MediaItem } from "./mediaitem.js";
 
 /**
  * Represents a collection of movies.
