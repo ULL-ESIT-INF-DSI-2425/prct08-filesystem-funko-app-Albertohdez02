@@ -5,12 +5,10 @@
   "main": "index.js",
   "scripts": {
     "ej1": "tsc-watch --onSuccess \"node dist/ejercicio-1/index.js\"",
-    "ej3": "tsc-watch --onSuccess \"node dist/ejercicio-3/files.js\"",
     "doc": "typedoc",
     "test": "vitest run",
     "test1": "vitest run tests/ejercicio-1.spec.ts",
-    "coverage1": "vitest run tests/ejercicio-1.spec.ts --coverage --coverage.include src/ejercicio-1/*",
-    "coverage": "vitest run tests/* --coverage --coverage.include 'src/**/*'"
+    "coverage": "vitest run tests/ejercicio-1.spec.ts --coverage --coverage.include 'src/**/*' --coverage.exclude 'src/cli'"
   },
   "repository": {
     "type": "git",
