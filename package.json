@@ -8,7 +8,7 @@
     "doc": "typedoc",
     "test": "vitest run",
     "test1": "vitest run tests/ejercicio-1.spec.ts",
-    "coverage": "vitest run tests/ejercicio-1.spec.ts --coverage --coverage.include 'src/**/*' --coverage.exclude 'src/cli'"
+    "coverage": "vitest run tests/**/* --coverage --coverage.include 'src/**/*' --coverage.exclude 'src/cli'"
   },
   "repository": {
     "type": "git",
