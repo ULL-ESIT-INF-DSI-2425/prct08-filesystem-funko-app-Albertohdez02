@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeEach } from "vitest";
-import { Funko } from "../../src/models/funko.js";
-import { FunkoGenre } from "../../src/enums/funkogenre.js";
-import { FunkoType } from "../../src/enums/funkotype.js";
+import { Funko } from "../../src/funkos/models/funko.js";
+import { FunkoGenre } from "../../src/funkos/enums/funkogenre.js";
+import { FunkoType } from "../../src/funkos/enums/funkotype.js";
 
 describe("Funko Class", () => {
   let testFunko: Funko;

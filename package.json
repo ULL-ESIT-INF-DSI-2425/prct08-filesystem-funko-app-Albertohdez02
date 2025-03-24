@@ -4,10 +4,11 @@
   "description": "Practica 8: file system y aplicacion para coleccionismo de Funkos",
   "main": "index.js",
   "scripts": {
-    "ej1": "tsc-watch --onSuccess \"node dist/ejercicio-1/index.js\"",
+    "ej1": "node dist/modificacion/ejercicio-1/index.js",
+    "ej2": "node dist/modificacion/ejercicio-2/index.js",
     "doc": "typedoc",
     "test": "vitest run",
-    "test1": "vitest run tests/ejercicio-1.spec.ts",
+    "test1": "vitest run tests/**/*",
     "coverage": "vitest run tests/**/* --coverage --coverage.include 'src/**/*' --coverage.exclude 'src/cli'"
   },
   "repository": {
